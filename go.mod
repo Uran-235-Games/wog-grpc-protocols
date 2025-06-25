@@ -1,4 +1,4 @@
-module github.com/1IQcoder/World-Of-Go/protos
+module github.com/Uran-235-Games/wog-grpc-lib
 
 go 1.24.2
 

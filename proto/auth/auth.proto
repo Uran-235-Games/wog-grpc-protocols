@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package auth.v1;
+package auth;
 
-option go_package = "github.com/1IQcoder/World-Of-Go/proto/auth/v1;v1";
+option go_package = "github.com/Uran-235-Games/wog-grpc-lib/proto/auth/auth;auth";
 
 service AuthService {
   rpc SignUp(SignUpRequest) returns (SignUpResponse);

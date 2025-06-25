@@ -4,7 +4,7 @@
 // 	protoc        v6.31.1
 // source: auth/auth.proto
 
-package v1
+package auth
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -273,7 +273,7 @@ var File_auth_auth_proto protoreflect.FileDescriptor
 
 const file_auth_auth_proto_rawDesc = "" +
 	"\n" +
-	"\x0fauth/auth.proto\x12\aauth.v1\"U\n" +
+	"\x0fauth/auth.proto\x12\x04auth\"U\n" +
 	"\rSignUpRequest\x12\x12\n" +
 	"\x04name\x18\x01 \x01(\tR\x04name\x12\x14\n" +
 	"\x05email\x18\x02 \x01(\tR\x05email\x12\x1a\n" +
@@ -290,10 +290,10 @@ const file_auth_auth_proto_rawDesc = "" +
 	"\x05token\x18\x01 \x01(\tR\x05token\x12\x0e\n" +
 	"\x02id\x18\x02 \x01(\tR\x02id\x12\x12\n" +
 	"\x04name\x18\x03 \x01(\tR\x04name\x12\x14\n" +
-	"\x05email\x18\x04 \x01(\tR\x05email2\x83\x01\n" +
-	"\vAuthService\x129\n" +
-	"\x06SignUp\x12\x16.auth.v1.SignUpRequest\x1a\x17.auth.v1.SignUpResponse\x129\n" +
-	"\x06SignIn\x12\x16.auth.v1.SignInRequest\x1a\x17.auth.v1.SignInResponseB2Z0github.com/1IQcoder/World-Of-Go/proto/auth/v1;v1b\x06proto3"
+	"\x05email\x18\x04 \x01(\tR\x05email2w\n" +
+	"\vAuthService\x123\n" +
+	"\x06SignUp\x12\x13.auth.SignUpRequest\x1a\x14.auth.SignUpResponse\x123\n" +
+	"\x06SignIn\x12\x13.auth.SignInRequest\x1a\x14.auth.SignInResponseB=Z;github.com/Uran-235-Games/wog-grpc-lib/proto/auth/auth;authb\x06proto3"
 
 var (
 	file_auth_auth_proto_rawDescOnce sync.Once
@@ -309,16 +309,16 @@ func file_auth_auth_proto_rawDescGZIP() []byte {
 
 var file_auth_auth_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
 var file_auth_auth_proto_goTypes = []any{
-	(*SignUpRequest)(nil),  // 0: auth.v1.SignUpRequest
-	(*SignUpResponse)(nil), // 1: auth.v1.SignUpResponse
-	(*SignInRequest)(nil),  // 2: auth.v1.SignInRequest
-	(*SignInResponse)(nil), // 3: auth.v1.SignInResponse
+	(*SignUpRequest)(nil),  // 0: auth.SignUpRequest
+	(*SignUpResponse)(nil), // 1: auth.SignUpResponse
+	(*SignInRequest)(nil),  // 2: auth.SignInRequest
+	(*SignInResponse)(nil), // 3: auth.SignInResponse
 }
 var file_auth_auth_proto_depIdxs = []int32{
-	0, // 0: auth.v1.AuthService.SignUp:input_type -> auth.v1.SignUpRequest
-	2, // 1: auth.v1.AuthService.SignIn:input_type -> auth.v1.SignInRequest
-	1, // 2: auth.v1.AuthService.SignUp:output_type -> auth.v1.SignUpResponse
-	3, // 3: auth.v1.AuthService.SignIn:output_type -> auth.v1.SignInResponse
+	0, // 0: auth.AuthService.SignUp:input_type -> auth.SignUpRequest
+	2, // 1: auth.AuthService.SignIn:input_type -> auth.SignInRequest
+	1, // 2: auth.AuthService.SignUp:output_type -> auth.SignUpResponse
+	3, // 3: auth.AuthService.SignIn:output_type -> auth.SignInResponse
 	2, // [2:4] is the sub-list for method output_type
 	0, // [0:2] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
