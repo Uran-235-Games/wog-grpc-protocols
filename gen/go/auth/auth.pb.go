@@ -293,7 +293,7 @@ const file_auth_auth_proto_rawDesc = "" +
 	"\x05email\x18\x04 \x01(\tR\x05email2w\n" +
 	"\vAuthService\x123\n" +
 	"\x06SignUp\x12\x13.auth.SignUpRequest\x1a\x14.auth.SignUpResponse\x123\n" +
-	"\x06SignIn\x12\x13.auth.SignInRequest\x1a\x14.auth.SignInResponseB=Z;github.com/Uran-235-Games/wog-grpc-lib/proto/auth/auth;authb\x06proto3"
+	"\x06SignIn\x12\x13.auth.SignInRequest\x1a\x14.auth.SignInResponseBCZAgithub.com/Uran-235-Games/wog-grpc-protocols/proto/auth/auth;authb\x06proto3"
 
 var (
 	file_auth_auth_proto_rawDescOnce sync.Once
